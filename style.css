@@ -1,0 +1,28 @@
+/*.linus{
+    position:fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+height: 100%;}*/
+body{
+background-image: url('sadHomelessPerson.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 400% 100%;
+background-position: -3000px 0px;
+}
+
+h1{font-size: 3.5vw;
+color: white;
+text-align: center;}
+
+button{width: 100%;
+    height: 69px;
+    font-size: 2vw;
+margin-bottom: 69px;}
+
+p{
+    color: white ;
+    font-size: 2vw;
+    padding-bottom: 0px;
+}
