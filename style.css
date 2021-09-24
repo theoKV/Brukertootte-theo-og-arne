@@ -5,11 +5,11 @@
     width: 100%;
 height: 100%;}*/
 body{
-background-image: url('sadHomelessPerson.jpg');
+background-image: url('Bilder/sadHomelessPerson.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 400% 100%;
-background-position: -3000px 0px;
+background-position: center;
 }
 
 h1{font-size: 3.5vw;
@@ -25,4 +25,24 @@ p{
     color: white ;
     font-size: 2vw;
     padding-bottom: 0px;
+}
+
+
+/*Når skjermen er like bred som bildet er går den i Tlf modus, alle bilder og tekst skalerer da for enkel bruk på tlf*/
+@media screen and (max-width: 850px) {
+    p{
+        font-size: 4vw;
+    }
+    /*Bildene får bredden til det brukeren ser. HUSK at dette kan bli problematisk på veldig brede skjermer*/
+img{
+    width: 100%;
+}
+/*Overskrifter*/
+h1{
+    font-size: 5vw;
+}
+
+button{
+    font-size: 4vw;
+}
 }
